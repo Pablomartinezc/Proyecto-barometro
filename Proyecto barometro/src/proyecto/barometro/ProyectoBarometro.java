@@ -11,6 +11,8 @@ package proyecto.barometro;
  * 
  * Soro soritos
  * 
+ * donde estas bonito
+ * 
  * @author Pablomartinezc
  */
 public class ProyectoBarometro {
