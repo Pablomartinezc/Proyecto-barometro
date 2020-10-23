@@ -9,7 +9,9 @@ package proyecto.barometro;
  *
  * Hola pepsicola
  * 
- * @author GG WP V3
+ * Soro soritos
+ * 
+ * @author Pablomartinezc
  */
 public class ProyectoBarometro {
 
