@@ -6,7 +6,7 @@
 package proyecto.barometro;
 
 /**
- *
+ * @version 1.0
  * @author Grupo 4
  */
 public class ProyectoBarometro {
