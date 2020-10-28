@@ -7,21 +7,51 @@ package proyecto.barometro;
 
 /**
  *
- * Hola pepsicola
- * 
- * Soro soritos
- * 
- * donde estas bonito
- * 
- * @author Pablomartinezc
+ * @author Grupo 4
  */
 public class ProyectoBarometro {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    private ModeloBarometro modelo;
+    private VistaBarometro vista;
+    
+    public ProyectoBarometro(VistaBarometro vista){
+        this.vista = vista;
+        this.modelo = new ModeloBarometro();
     }
     
+    static float presion;
+    public String fecha;
+    public String hora;
+    
+    public static float getPresion(){
+        return presion;
+    }
+    public static void setPresion(float presion){
+        ProyectoBarometro.presion = presion;
+    }
+    public String getHora(){
+        return hora;
+    }
+    public void setHora(String hora){
+        this.hora = hora;
+    }
+    public String getFecha(){
+        return fecha;
+    }
+    public void setFecha(String fecha){
+        this.fecha = fecha;
+    }
+    public class Options {
+        private boolean all = false;
+        private boolean noBackup = false;
+        
+        public Options withAll() {
+            all = true;
+            return this;
+        }
+        
+        public Options withoutBackups() {
+            noBackup = true;
+            return this;
+        }
+    }
 }
