@@ -14,8 +14,8 @@ import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 
 /**
- *
- * @author Josem
+ *@version 2
+ * @author Grupo 4
  */
 public class VistaBarometro {
     private static ControladorBarometro control;

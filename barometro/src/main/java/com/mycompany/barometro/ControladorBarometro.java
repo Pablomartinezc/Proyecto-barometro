@@ -7,7 +7,7 @@ package com.mycompany.barometro;
 
 /**
  *
- * @author Josem
+ * @author Grupo 4
  */
 public class ControladorBarometro {
 
