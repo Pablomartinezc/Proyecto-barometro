@@ -14,7 +14,7 @@ import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 
 /**
- *@version 2
+ *@version 3
  * @author Grupo 4
  */
 public class VistaBarometro {
