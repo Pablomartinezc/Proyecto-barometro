@@ -12,20 +12,12 @@ import java.util.stream.Collectors;
  * @author Grupo 4
  */
 public class ModeloBarometro {
-    public class Options {
-        private boolean all = false;
-        private boolean noBackup = false;
-
-        public Options withAll() {
-            all = true;
-            return this;
-        }
+    
+    public void getPrediccion(String hora, String fecha, Integer presion){
         
-        public Options withoutBackups() {
-            noBackup = true;
-            return this;
-        }
+    }
+    
+    
+    
         
-        
-    }    
 }
