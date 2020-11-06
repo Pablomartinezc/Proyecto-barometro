@@ -27,11 +27,11 @@ public class VistaBarometro {
         HelpFormatter formatter = new HelpFormatter();
         
         Options opts = new Options();
-        opts.addOption("p", "use a long listing format");
+        opts.addOption("p", "presion");
         opts.addOption("f", "all", false, 
-                " do not ignore entries starting with .");
+                " fecha .");
         opts.addOption("h", "ignore-backups", false,
-                "do not list implied entries ending with ~");
+                "hora");
 
         CommandLineParser parser = new DefaultParser();
         
